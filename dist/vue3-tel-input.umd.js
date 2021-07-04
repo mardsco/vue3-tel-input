@@ -4218,7 +4218,7 @@ function install(app) {
 var plugin = {
   install: install
 }; // Auto-install
-
+/*
 var GlobalVue = null;
 
 if (typeof window !== 'undefined') {
@@ -4229,7 +4229,7 @@ if (typeof window !== 'undefined') {
 
 if (GlobalVue) {
   GlobalVue.use(plugin);
-}
+}*/
 
 /* harmony default export */ __webpack_exports__["b"] = (plugin);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("c8ba")))
